@@ -1,0 +1,58 @@
+body {
+    background-image: url(background.jpg);
+}
+
+table {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    
+    width: 500px;
+    margin : 0px auto;
+    border-collapse: collapse;
+}
+
+caption {
+	font-size: 16px;
+	font-weight: bold;
+	color : royalblue;
+    padding : 8px;
+}
+
+td, th {
+    padding: 8px;
+    border: 2px solid forestgreen;
+}
+
+td.bil {
+    width: 20px;
+}
+
+td.soalan {
+    width: 300px;
+    text-align: left;
+}
+
+td.skema {
+    width: 120px;
+    text-align: left;
+}
+
+td.keputusan{
+    width: 250px;
+}
+
+tr:nth-child(odd) {
+    background-color: navajowhite;
+}
+
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow  ;
+} 
+
+th {
+    font-weight: bold;
+    color:dimgrey;
+    background-color: lawngreen;
+}

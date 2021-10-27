@@ -1,0 +1,2 @@
+S009,Jika salah satu punca bagi persamaan 2x² + kx = 6 ialah 2 cari nilai k,1,-1,2,B,G01
+S010,-5 ialah salah satu punca bagi persamaan px = 15 - 2x² p ialah,7,3,5,A,G01

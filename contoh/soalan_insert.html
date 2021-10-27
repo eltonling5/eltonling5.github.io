@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="borang.css">
+<link rel="stylesheet" href="button.css">
+<h3 class="panjang">TAMBAH SOALAN BARU</h3>
+<form class="panjang" action="soalan_insert.php" method="post">
+    <table>
+        <tr>
+            <td>ID Soalan</td>
+            <td><input required type="text" name="idsoalan" placeholder="S001"></td>
+        </tr>
+        <tr>
+            <td>Soalan</td>
+            <td><input required type="text" name="soalan"></td>
+        </tr>
+        <tr>
+            <td>Pilihan A</td>
+            <td><input required type="text" name="pilihan_a"></td>
+        </tr>
+        <tr>
+            <td>Pilihan B</td>
+            <td><input required type="text" name="pilihan_b"></td>
+        </tr>
+        <tr>
+            <td>Pilihan C</td>
+            <td><input required type="text" name="pilihan_c"></td>
+        </tr>
+        <tr>
+            <td>Jawapan</td>
+            <td><input required type="text" name="jawapan" placeholder="masukkan A atau B atau C"></td>
+        </tr>
+        <tr>
+            <td>ID Guru</td>
+            <td><input required type="text" name="idguru" placeholder="nokp"></td>
+        </tr>
+    </table>
+    <button class="tambah" type="submit">Tambah</button>
+</form>
